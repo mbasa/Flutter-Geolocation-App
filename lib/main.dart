@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong/latlong.dart';
 
-import 'package:geocoder/geocoder.dart';
+//import 'package:geocoder/geocoder.dart';
 import 'package:location/location.dart';
 
 void main() => runApp(new MyApp());
@@ -153,7 +153,7 @@ class _MyHomePageState extends State<MyHomePage> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: <Widget>[
-                  Text("Set Distance Interval (meters) : "),
+                  Text("Set Dist Interval (meters) : "),
                   DropdownButton<double>(
                     elevation: 36,
                     value: _distInterval,
