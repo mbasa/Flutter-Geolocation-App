@@ -1,0 +1,3 @@
+sdk.dir=/Users/mbasa/Library/Android/sdk
+flutter.sdk=/Users/mbasa/Development/flutter
+flutter.buildMode=debug
